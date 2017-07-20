@@ -38,7 +38,7 @@ class Login extends Component {
     this.props.setSpinnerVisible(true);
     setTimeout(() => {
       this.props.setSpinnerVisible(false);
-      this.props.navigation.navigate('main');
+      this.props.navigation.dispatch(Utils.getResetAction('main'));
     }, 500);
   }
 
@@ -80,7 +80,7 @@ class Login extends Component {
               <TextInput
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
-                placeholder={'EMAIL'}
+                placeholder={'USERNAME'}
                 placeholderTextColor={Colors.textPlaceholder}
                 multiline={false}
                 onChangeText={text => this.setState({ email: text })}

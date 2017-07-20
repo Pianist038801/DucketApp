@@ -1,8 +1,8 @@
-
+import Immutable from 'seamless-immutable';
 import { createReducer } from 'reduxsauce';
 import Types from '@actions/actionTypes';
 
-export const initialState = {
+export const initialState = Immutable({
   appNavigator: null,
   mainNavigator: null,
   gamesNavigator: null,
@@ -10,7 +10,7 @@ export const initialState = {
   settingsNavigator: null,
   rulesNavigator: null,
   adminNavigator: null,
-};
+});
 
 const appNavigator = (state, action) => ({
   ...state,

@@ -12,17 +12,4 @@ I18n.translations = {
 I18n.languages = {
   en: require('./english.json'),
 };
-
-const languageCode = I18n.locale.substr(0, 2);
-
-// All other translations for the app goes to the respective language file:
-switch (languageCode) {
-  case 'sl':
-    I18n.translations.sl = require('./sl.json');
-    break;
-  /* case 'zu':
-    I18n.translations.zu = require('./zu.json');
-    break; */
-  default:
-    I18n.translations.en = require('./english.json');
-}
+ 

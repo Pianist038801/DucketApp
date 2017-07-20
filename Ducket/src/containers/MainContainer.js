@@ -25,48 +25,9 @@ class MainContainer extends React.Component {
   }
 
   componentDidMount() {
-   /*8 AppState.addEventListener('change', this.handleAppStateChange.bind(this));
-    NetInfo.isConnected.fetch().then((isConnected) => {
-      // console.log('First, is ' + (isConnected ? 'online' : 'offline'));
-      mthis.props.setNetworkState(isConnected);
-    });
-    NetInfo.isConnected.addEventListener(
-      'change',
-      mthis.handleFirstConnectivityChange,
-    );
-    const me = this.props.globals.me;
-    if (!(me.location && me.occupation && me.bio) && me.isFullProfile !== true) { // && !isFillProfileAlertShown) {
-      // isFillProfileAlertShown = true;
-      setTimeout(() => {
-        Alert.alert('', I18n.t('FILL_PROFILE'));
-      }, 50);
-    }*/
   }
   
   componentWillUnmount() {
-    AppState.removeEventListener('change', this.handleAppStateChange.bind(this));
-  }
-
-  handleFirstConnectivityChange(isConnected) {
-    // console.log('Then, is ' + (isConnected ? 'online' : 'offline'));
-    mthis.props.setNetworkState(isConnected);
-  }
-
-  async handleAppStateChange(nextAppState) {
-    /*if (nextAppState === 'active') {
-      console.log('App has come to the foreground!');
-      if (Api.setting.token !== null && Api.setting.token !== undefined && Api.setting.token !== '') {
-        console.log('reload data');
-        await Api.loadInitialData(this.props, 1, false);
-      }
-    } else {
-      const nPayload = { userId: this.props.globals.me._id };
-      console.log('clear push notif icon badge count');
-      fetch(Api.CLEAR_PUSH_BADGE_COUNT_URL, Api.getParams('post', nPayload));
-      FCM.setBadgeNumber(0);
-    }
-    // this.setState({ appState: nextAppState });
-    this.props.setAppState(nextAppState);*/
   }
   
   onNavigationStateChange(prevState, currentState) {
@@ -91,7 +52,7 @@ class MainContainer extends React.Component {
       initialRoute = 'teamList';
     } else if (curRouteName === 'settings') {
       navigator = this.props.navigators.watchNavigator;
-      initialRoute = 'Watch';
+      initialRoute = 'settings';
     } else if (curRouteName === 'rules') {
       navigator = this.props.navigators.infoNavigator;
       initialRoute = 'Info';
@@ -101,7 +62,11 @@ class MainContainer extends React.Component {
 
   render() { 
     return (
-      <View/>
+      <View style={{ flex: 1 }}>
+        <PushController onChangeToken={token => console.log(token)} />
+        <MainNavigator
+            onNavigationStateChange={(prevState, currentState) => this.onNavigationStateChange(prevState, currentState)} />
+      </View>
      
     );
   }

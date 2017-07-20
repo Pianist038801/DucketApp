@@ -8,7 +8,7 @@ import Splash from '@containers/Splash';
 import Login from '@containers/Authentication/Login';
 import Register from '@containers/Authentication/Register';
 import ForgotPassword from '@containers/Authentication/ForgotPassword';
-//import MainContainer from '@containers/MainContainer';
+import MainContainer from '@containers/MainContainer';
 import Home from '@containers/Home';
 
 const AppNavigator = StackNavigator({
@@ -16,7 +16,7 @@ const AppNavigator = StackNavigator({
   login: { screen: Login },
   register: { screen: Register },
   forgotPassword: { screen: ForgotPassword },
-  main: { screen: ForgotPassword },
+  main: { screen: MainContainer },
 }, {
   initialRouteName: 'splash',
   navigationOptions: {

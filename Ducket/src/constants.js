@@ -2,6 +2,7 @@ import I18n from 'react-native-i18n';
 import { Icons } from '@theme';
 
 const constants = {
+  SERVER_URL: 'http://192.168.1.125:7276',
   IP_BUTTONS: [
     { key: 0, label: I18n.t('TAKE_PHOTO') },
     { key: 1, label: I18n.t('PICK_FROM_LIBRARY')},

@@ -14,7 +14,7 @@ import I18n from 'react-native-i18n';
 import ImagePicker from 'react-native-image-picker';
 import ImageResizer from 'react-native-image-resizer';
 import { MKButton } from 'react-native-material-kit';
-
+import CT from '@src/constants';
 import { replaceRoute } from '@actions/route';
 import CommonWidgets from '@components/CommonWidgets';
 import ActionSheet from '@components/ActionSheet/';

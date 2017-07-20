@@ -24,5 +24,5 @@ switch (languageCode) {
     I18n.translations.zu = require('./zu.json');
     break; */
   default:
-    I18n.translations.en = require('./english.json');     
+    I18n.translations.en = require('./english.json');
 }

@@ -9,7 +9,7 @@ import {
 import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import I18n from 'react-native-i18n';
-
+import CT from '@src/constants';
 import { replaceRoute } from '@actions/route';
 import CommonWidgets from '@components/CommonWidgets';
 
@@ -50,17 +50,17 @@ class ForgotPassword extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.emailFocus) }]}>
               <Text style={[styles.forgotTextStyle, Fonts.style.h4]}>
-                {I18n.t('FORGOT_YOUR')}
+                {CT.string.FORGOT_YOUR}
               </Text>
               {CommonWidgets.renderSpacer(1)}
               <Text style={[styles.forgotTextStyle, Fonts.style.bottomText, { marginTop: 5 }]}>
-                {I18n.t('ENTER_RESET_EMAIL')}
+                {CT.string.ENTER_RESET_EMAIL}
               </Text>
               {CommonWidgets.renderSpacer(0.5)}
               <TextInput
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('EMAIL')}
+                placeholder={CT.string.EMAIL}
                 placeholderTextColor={Colors.textPlaceholder}
                 multiline={false}
                 onChangeText={text => this.setState({ email: text })}
@@ -70,7 +70,7 @@ class ForgotPassword extends Component {
                 onFocus={() => this.onTextInputFocus('email')} />
             </View>
             {CommonWidgets.renderSpacer(1)}
-            {CommonWidgets.renderMaterialButton(I18n.t('RESET_PASSWORD'),
+            {CommonWidgets.renderMaterialButton('Send Password',
               Colors.brandSecondary, () => this.doResetPassword())}
           </View>
           {CommonWidgets.renderCloseButton(() => this.props.navigation.goBack())}

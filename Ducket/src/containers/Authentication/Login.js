@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import I18n from 'react-native-i18n';
 import { MKButton } from 'react-native-material-kit';
-
+import CT from '@src/constants';
 import { replaceRoute } from '@actions/route';
 import OverlaySpinner from '@components/OverlaySpinner';
 import CommonWidgets from '@components/CommonWidgets';
@@ -68,7 +68,7 @@ class Login extends Component {
           {/* -----LOGO---- */}
           <View style={[Styles.center, { flex: 5 }]}>
             <Text style={[Fonts.style.h1, { color: Colors.textPrimary }]}>
-              {I18n.t('APP_NAME')}
+              {CT.string.APP_NAME}
             </Text>
           </View>
 
@@ -80,7 +80,7 @@ class Login extends Component {
               <TextInput
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('EMAIL')}
+                placeholder={'EMAIL'}
                 placeholderTextColor={Colors.textPlaceholder}
                 multiline={false}
                 onChangeText={text => this.setState({ email: text })}
@@ -97,7 +97,7 @@ class Login extends Component {
                 ref={(c) => { this.loginpwd = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('PASSWORD')}
+                placeholder={'PASSWORD'}
                 placeholderTextColor={Colors.textPlaceholder}
                 multiline={false}
                 secureTextEntry
@@ -111,18 +111,18 @@ class Login extends Component {
                 backgroundColor={'transparent'}
                 onPress={() => this.props.navigation.navigate('forgotPassword')}>
                 <Text style={[Fonts.style.h6, { color: Colors.textPrimary }]}>
-                  {I18n.t('FORGOT_PASSWORD')}
+                  Forgot password
                 </Text>
               </MKButton>
             </View>
             {CommonWidgets.renderSpacer(2)}
-            {CommonWidgets.renderMaterialButton(I18n.t('LOGIN'),
+            {CommonWidgets.renderMaterialButton('Log In',
               Colors.brandSecondary, () => this.doLogin())}  
             <Text style={[Fonts.style.h6, { color: Colors.textPrimary, marginVertical: 5 }]}>
-              {I18n.t('OR')}
+              OR
             </Text>
 
-            {CommonWidgets.renderMaterialButton(I18n.t('CONNECT_FACEBOOK'),
+            {CommonWidgets.renderMaterialButton('Connect Facebook',
               Colors.brandThird, () => this.doFacebookLogin())}
 
           </View>
@@ -130,13 +130,13 @@ class Login extends Component {
           {/* -----BottomArea---- */}
           <View style={styles.bottomAreaLogin}>
             <Text style={[Fonts.style.bottomText, { color: Colors.textPrimary }]}>
-              {I18n.t('STILL_DONT_HAVE')}
+              Still don't have an account?
             </Text>
             <MKButton
               backgroundColor={'transparent'}
               onPress={this.doRegister.bind(this)}>
               <Text style={[Fonts.style.hyperButtonText, { color: Colors.textPrimary, marginLeft: 5 }]}>
-                {I18n.t('REGISTER_NOW')}
+                Register now!
               </Text>
             </MKButton>
           </View>
@@ -149,17 +149,16 @@ class Login extends Component {
 
 Login.propTypes = {
   dispatch: React.PropTypes.func.isRequired,
-  replaceRoute: React.PropTypes.func.isRequired,
   setSpinnerVisible: React.PropTypes.func.isRequired,
 };
 
 function mapDispatchToProps(dispatch) {
   return {
     dispatch,
-    replaceRoute: route => dispatch(replaceRoute(route)),
     setSpinnerVisible: spinnerVisible => dispatch(setSpinnerVisible(spinnerVisible)),
   };
 }
+
 function mapStateToProps(state) {
   const globals = state.get('globals');
   return { globals };

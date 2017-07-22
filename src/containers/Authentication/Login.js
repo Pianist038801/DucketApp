@@ -3,6 +3,7 @@ import {
   Text,
   TextInput,
   View,
+  Alert,
   Image
  } from 'react-native';
 import { connect } from 'react-redux';
@@ -17,7 +18,7 @@ import CommonWidgets from '@components/CommonWidgets';
 import { Styles, Images, Colors, Fonts, Metrics } from '@theme/';
 import Utils from '@src/utils';
 import styles from './styles';
-
+import api from '@api';
 import { setSpinnerVisible } from '@actions/globals';
 
 class Login extends Component {
@@ -36,10 +37,21 @@ class Login extends Component {
                              
   doLogin() {
     this.props.setSpinnerVisible(true);
-    setTimeout(() => {
-      this.props.setSpinnerVisible(false);
-      this.props.navigation.dispatch(Utils.getResetAction('main'));
-    }, 500);
+    var loginData = {
+      username: this.state.email,
+      password: this.state.password,
+    }
+    let mthis = this;
+    api('/user/login', loginData).then(res=>{
+      if(res.success == true){
+          mthis.props.setSpinnerVisible(false);
+          mthis.props.navigation.dispatch(Utils.getResetAction('main'));
+        }
+        else{
+          mthis.props.setSpinnerVisible(false);
+          Alert.alert('Login Failed');
+        }
+    }); 
   }
 
   doFacebookLogin() {

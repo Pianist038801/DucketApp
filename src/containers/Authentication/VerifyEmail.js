@@ -11,14 +11,11 @@ import {
 import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import I18n from 'react-native-i18n';
-import ImagePicker from 'react-native-image-picker';
-import ImageResizer from 'react-native-image-resizer';
+import I18n from 'react-native-i18n'; 
 import { MKButton } from 'react-native-material-kit';
 import CT from '@src/constants';
-import { replaceRoute } from '@actions/route';
-import CommonWidgets from '@components/CommonWidgets';
-import ActionSheet from '@components/ActionSheet/';
+ 
+import CommonWidgets from '@components/CommonWidgets'; 
 import { Metrics, Styles, Images, Colors, Fonts } from '@theme/';
 import Utils from '@src/utils';
 import Constants from '@src/constants';
@@ -42,85 +39,12 @@ class Register extends Component {
   }
 
   doLogin() {
-    this.props.replaceRoute('home');     
+        
   }
   doSignUp() {
-    if (Utils.validateEmail(this.state.email) != true){ 
-      Alert.alert('Invalid Email');
-      return;
-    }
-
-    if (this.state.password1 != this.state.password2){
-      Alert.alert('Confirm your password Correctly');
-      return;
-    }
-
-    signupData = {
-        username: this.state.username,
-        password: this.state.password1,
-        email: this.state.email, 
-        avatarUri: this.state.avatarUri,
-        isLoggedIn : false,
-        deviceToken : '',
-        osType : '',
-    }
-    api('/user/signup', signupData).then(res=>{
-       if(res.success == false)
-          Alert.alert(res.message);
-       else
-          Alert.alert('Signup Succeeded');
-    })
+ 
   }
-  showActionSheetMenu() {
-    this.ActionSheet.show();
-  }
-  onActionSheetMenu(index) {
-    const options = {
-      quality: 1.0,
-      storageOptions: {
-        skipBackup: true,
-        path: 'images',
-      },
-    };
-    switch (index) {
-      case 0:
-        ImagePicker.launchCamera(options, (response) => {
-          this.onImagePicker(response);
-        });
-        break;
-      case 1:
-        ImagePicker.launchImageLibrary(options, (response) => {
-          this.onImagePicker(response);
-        });
-        break;
-      default:
-    }
-  }
-  onImagePicker(response) {
-    if (response.didCancel) {
-      console.log('User cancelled image picker');
-    } else if (response.error) {
-      console.log('ImagePicker Error: ', response.error);
-    } else if (response.customButton) {
-      console.log('User tapped custom button: ', response.customButton);
-    } else if (response.uri !== undefined) {
-      let source = '';
-      if (Platform.OS === 'android') {
-        source = { uri: response.uri };
-      } else {
-        source = { uri: response.uri.replace('file://', ''), isStatic: true };
-      }
-      ImageResizer.createResizedImage(source.uri, 400, 300, 'JPEG', 80)
-        .then((resizedImageUri) => {
-          this.setState({
-            avatarUri: resizedImageUri,
-          });
-        }).catch((err) => {
-          console.log(err);
-        });
-    }
-  }
-  /*source={Images.bkgLogin}*/
+   
   render() {
     return (
       <KeyboardAwareScrollView
@@ -251,17 +175,15 @@ class Register extends Component {
 }
 
 Register.propTypes = {
-  dispatch: React.PropTypes.func.isRequired,
-  replaceRoute: React.PropTypes.func.isRequired,
+  dispatch: React.PropTypes.func.isRequired, 
 };
 
 function mapDispatchToProps(dispatch) {
   return {
-    dispatch,
-    replaceRoute: route => dispatch(replaceRoute(route)),
+    dispatch, 
   };
 }
 function mapStateToProps(state) {
   return { };
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Register);
+export default connect(mapStateToProps, mapDispatchToProps)(VerifyEmail);

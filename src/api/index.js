@@ -1,5 +1,6 @@
+import CT from '@src/constants'
 export default  apiPostCall = function sendRequest(url, data, done) {
-    return fetch(url,{
+    return fetch(CT.SERVER_URL + url,{
                 method: 'POST', 
                 body: JSON.stringify(data),
                 headers: {

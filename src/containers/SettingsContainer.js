@@ -7,7 +7,7 @@ import SettingsNavigator from '@navigators/SettingsNavigator';
  
 class SettingsContainer extends React.Component {
   static navigationOptions = {
-    title: I18n.t('HOME'),
+    title: I18n.t('SETTINGS'),
     
   }
   render() {

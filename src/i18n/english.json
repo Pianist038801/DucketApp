@@ -25,5 +25,11 @@
    "CANCEL": "Cancel",
 
    "YES": "Yes",
-   "NO": "No"
+   "NO": "No",
+
+   "ADMIN": "Admin",
+   "SETTINGS": "Settings",
+   "RULES": "Game Rules",
+   "TEAMS": "Teams",
+   "GAMES": "Games",
 }

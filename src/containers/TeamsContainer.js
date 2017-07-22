@@ -7,7 +7,7 @@ import TeamsNavigator from '@navigators/TeamsNavigator';
  
 class TeamsContainer extends React.Component {
   static navigationOptions = {
-    title: I18n.t('HOME'),
+    title: I18n.t('TEAMS'),
      
   }
   render() {

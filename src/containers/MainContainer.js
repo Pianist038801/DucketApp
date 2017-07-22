@@ -55,6 +55,7 @@ class MainContainer extends React.Component {
       navigator = this.props.navigators.infoNavigator;
       initialRoute = 'rules';
     }
+    if(navigator != undefined)
     navigator.dispatch(Utils.getResetAction(initialRoute));
   }
 
@@ -72,6 +73,7 @@ class MainContainer extends React.Component {
 function mapDispatchToProps(dispatch) {
   return {
     dispatch,
+    setMainNavigator: (mainNavigator)=>dispatch(setMainNavigator(mainNavigator))
   };
 }
 

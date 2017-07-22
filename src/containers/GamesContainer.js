@@ -7,7 +7,7 @@ import GamesNavigator from '@navigators/GamesNavigator';
 
 class GamesContainer extends React.Component {
   static navigationOptions = {
-    title: I18n.t('HOME'),
+    title: I18n.t('GAMES'),
     
   }
   render() {

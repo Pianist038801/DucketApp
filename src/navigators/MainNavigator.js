@@ -9,11 +9,11 @@ import TeamsContainer from '@containers/TeamsContainer';
 import { Colors, Fonts, Metrics } from '@theme/';
 
 const routeConfigs = {
-  admin: { screen: AdminContainer },
   games: { screen: GamesContainer },
   rules: { screen: RulesContainer },
   settings: { screen: SettingsContainer },
   teams: { screen: TeamsContainer },
+  admin: { screen: AdminContainer },
 };
 const navigatorConfig = {
   drawerWidth: Metrics.screenWidth * 2 / 3,

@@ -7,7 +7,7 @@ import AdminNavigator from '@navigators/AdminNavigator';
  
 class AdminContainer extends React.Component {
   static navigationOptions = {
-    title: I18n.t('HOME'),
+    title: I18n.t('ADMIN'),
    
   }
   render() {

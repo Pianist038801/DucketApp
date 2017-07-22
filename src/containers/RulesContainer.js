@@ -7,7 +7,7 @@ import RulesNavigator from '@navigators/RulesNavigator';
  
 class RulesContainer extends React.Component {
   static navigationOptions = {
-    title: I18n.t('HOME'),
+    title: I18n.t('RULES'),
      
   }
   render() {

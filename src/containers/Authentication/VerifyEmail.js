@@ -11,38 +11,74 @@ import {
 import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import I18n from 'react-native-i18n'; 
+import I18n from 'react-native-i18n';
+import ImagePicker from 'react-native-image-picker';
+import ImageResizer from 'react-native-image-resizer';
 import { MKButton } from 'react-native-material-kit';
 import CT from '@src/constants';
- 
-import CommonWidgets from '@components/CommonWidgets'; 
+import { replaceRoute } from '@actions/route';
+import CommonWidgets from '@components/CommonWidgets';
+import ActionSheet from '@components/ActionSheet/';
 import { Metrics, Styles, Images, Colors, Fonts } from '@theme/';
 import Utils from '@src/utils';
 import Constants from '@src/constants';
 import styles from './styles';
+import uploadAvatar from '@api/uploadAvatar';
 import api from '@api';
+import { setSpinnerVisible } from '@actions/globals';
 
 class Register extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
-      avatarUri: '',
-      username: '',
-      email: '',
-      password1: '',
-      password2: '',
+      code: '',
+      verifyCode: '',
     };
   }
+
+  componentDidMount()
+  { 
+    var signupData = this.props.navigation.state.params.userdata;
+    api('/user/sendSMS', {email: signupData.email}).then(res=>{
+       if(res.success == true)
+          this.setState({verifyCode: res.data});
+    })
+  }
+
   onTextInputFocus(value) {
     this.setState({ usernameFocus: false, emailFocus: false, password1Focus: false, password2Focus: false });
     this.setState({ [`${value}Focus`]: true });
   }
-
+  
   doLogin() {
-        
+    this.props.replaceRoute('home');     
   }
+
   doSignUp() {
+    var signupData = this.props.navigation.state.params.userdata;
+    uploadAvatar(signupData.avatarUri)
+    .then((url) => {
+        // URL of the image uploaded on Firebase storage
+        Alert.alert(url);
+        console.log(url);
+        
+      })
+      .catch((error) => {
+        Alert.alert(error);
+        console.log(error);
  
+      });/*
+     if(this.state.code == this.state.verifyCode){
+        this.props.dispatch(setSpinnerVisible(true))
+        api('/user/signup', signupData).then(res=>{     
+           this.props.dispatch(setSpinnerVisible(false));
+           this.props.navigation.dispatch(Utils.getResetAction('main'));
+        })
+     }
+    else{
+      Alert.alert('Wrong Code');
+    }*/
   }
    
   render() {
@@ -57,117 +93,31 @@ class Register extends Component {
             style={Styles.fixedFullScreen} />
           {/* -----Avatar---- */}
           <View style={[Styles.center, { flex: 5 }]}>
-            <View>
-              <Image
-                resizeMode={'stretch'}
-                style={styles.imgAvatar}
-                source={this.state.avatarUri === '' ? Images.imgAvatar : { uri: this.state.avatarUri }} />
-              <TouchableOpacity
-                style={{ position: 'absolute', right: 0, top: 0, backgroundColor: 'transparent' }}
-                onPress={() => this.showActionSheetMenu()}>
-                <Icon
-                  name={'plus-circle'}
-                  color={'white'}
-                  size={40} />
-              </TouchableOpacity>
-            </View>
-            <Text style={[Fonts.style.h4, { color: Colors.textPrimary }]}>
-              {I18n.t('UPLOAD_PHOTO')}
-            </Text>
-          </View>
-
-          {/* -----Body---- */}
-          <View style={styles.bodyContainer}>
-            <View
-              style={[Styles.textInputContainerStyle,
-              { borderColor: Utils.getTextInputBorderColor(this.state.usernameFocus) }]}>
-              <TextInput
-                style={Styles.textInputStyle}
-                underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('USERNAME')}
-                placeholderTextColor={Colors.textPlaceholder}
-                multiline={false}
-                onChangeText={text => this.setState({ username: text })}
-                returnKeyType={'next'}
-                onSubmitEditing={() => this.emailInput.focus()}
-                onFocus={() => this.onTextInputFocus('username')} />
-            </View>
-            {CommonWidgets.renderSpacer(1)}
-            <View
-              style={[Styles.textInputContainerStyle,
-              { borderColor: Utils.getTextInputBorderColor(this.state.emailFocus) }]}>
-              <TextInput
-                ref={(c) => { this.emailInput = c; }}
-                style={Styles.textInputStyle}
-                underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('EMAIL')}
-                placeholderTextColor={Colors.textPlaceholder}
-                multiline={false}
-                onChangeText={text => this.setState({ email: text })}
-                keyboardType={'email-address'}
-                returnKeyType={'next'}
-                onSubmitEditing={() => this.pwd1Input.focus()}
-                onFocus={() => this.onTextInputFocus('email')} />
-            </View>
-            {CommonWidgets.renderSpacer(1)}
-            <View
-              style={[Styles.textInputContainerStyle,
-              { borderColor: Utils.getTextInputBorderColor(this.state.password1Focus) }]}>
-              <TextInput
-                ref={(c) => { this.pwd1Input = c; }}
-                style={Styles.textInputStyle}
-                underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('CREATE_PASSWORD')}
-                placeholderTextColor={Colors.textPlaceholder}
-                multiline={false}
-                secureTextEntry
-                onChangeText={text => this.setState({ password1: text })}
-                returnKeyType={'next'}
-                onSubmitEditing={() => this.pwd2Input.focus()}
-                onFocus={() => this.onTextInputFocus('password1')} />
-            </View>
-            {CommonWidgets.renderSpacer(1)}
             <View
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.password2Focus) }]}>
+              <Text style={[Fonts.style.h4, { color: Colors.textPrimary }]}>
+                We've sent verification code to your Email
+              </Text>
               <TextInput
+              autoCapitalize = 'none'
                 ref={(c) => { this.pwd2Input = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
-                placeholder={I18n.t('CONFIRM_PASSWORD')}
+                placeholder={'Verification Code'}
                 placeholderTextColor={Colors.textPlaceholder}
                 multiline={false}
                 secureTextEntry
-                onChangeText={text => this.setState({ password2: text })}
+                onChangeText={text => this.setState({ code: text })}
                 returnKeyType={'go'}
                 onSubmitEditing={() => this.doSignUp()}
                 onFocus={() => this.onTextInputFocus('password2')} />
             </View>
             {CommonWidgets.renderSpacer(1)}
-            {CommonWidgets.renderMaterialButton(I18n.t('CREATE_ACCOUNT'),
+            {CommonWidgets.renderMaterialButton('CONFIRM',
               Colors.brandSecondary, () => this.doSignUp())}
           </View>
-          {/* -----BottomArea---- */}
-          <View style={styles.bottomAreaRegister}>
-            <Text style={[Fonts.style.bottomText, { color: Colors.textPrimary }]}>
-              {I18n.t('BY_CREATING')}
-            </Text>
-            <MKButton
-              backgroundColor={'transparent'}
-              onPress={() => alert('TODO: TERMS & POLICY')}>
-              <Text style={[Fonts.style.hyperButtonText, { color: Colors.textPrimary, marginLeft: 5 }]}>
-                {I18n.t('TERMS_POLICY')}
-              </Text>
-            </MKButton>
-          </View>
-
-          <ActionSheet
-            ref={(as) => { this.ActionSheet = as; }}
-            options={Constants.IP_BUTTONS}
-            cancelButtonIndex={Constants.IP_BUTTONS.length - 1}
-            onPress={this.onActionSheetMenu.bind(this)}
-            tintColor={Colors.textSecondary} />
-          {CommonWidgets.renderCloseButton(() => this.props.navigation.goBack())}
+          {CommonWidgets.renderCloseButton(() => this.props.navigation.goBack())}      
         </View>
       </KeyboardAwareScrollView>
     );
@@ -180,10 +130,10 @@ Register.propTypes = {
 
 function mapDispatchToProps(dispatch) {
   return {
-    dispatch, 
+    dispatch,
   };
 }
 function mapStateToProps(state) {
   return { };
 }
-export default connect(mapStateToProps, mapDispatchToProps)(VerifyEmail);
+export default connect(mapStateToProps, mapDispatchToProps)(Register);

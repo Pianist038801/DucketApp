@@ -9,12 +9,14 @@ import Login from '@containers/Authentication/Login';
 import Register from '@containers/Authentication/Register';
 import ForgotPassword from '@containers/Authentication/ForgotPassword';
 import MainContainer from '@containers/MainContainer';
+import VerifyEmail from '@containers/Authentication/VerifyEmail';
 import Home from '@containers/Home';
 
 const AppNavigator = StackNavigator({
   splash: { screen: Splash },
   login: { screen: Login },
   register: { screen: Register },
+  verifyEmail: {screen: VerifyEmail},
   forgotPassword: { screen: ForgotPassword },
   main: { screen: MainContainer },
 }, {

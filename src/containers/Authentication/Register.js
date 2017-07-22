@@ -44,7 +44,14 @@ class Register extends Component {
   doLogin() {
     this.props.replaceRoute('home');     
   }
+
   doSignUp() {
+    if(this.state.email == '' || this.state.username == '' || this.state.password1 == '')
+    {
+      Alert.alert('All fields should be valid');
+      return;
+    }
+      
     if (Utils.validateEmail(this.state.email) != true){ 
       Alert.alert('Invalid Email');
       return;
@@ -54,21 +61,24 @@ class Register extends Component {
       Alert.alert('Confirm your password Correctly');
       return;
     }
-
+   
+    
     signupData = {
         username: this.state.username,
         password: this.state.password1,
-        email: this.state.email, 
+        email: this.state.email,
         avatarUri: this.state.avatarUri,
         isLoggedIn : false,
         deviceToken : '',
         osType : '',
     }
-    api('/user/signup', signupData).then(res=>{
+    let mthis = this;
+    //mthis.props.navigation.navigate('verifyEmail',{userdata: signupData});
+    api('/user/signup/check', signupData).then(res=>{
        if(res.success == false)
           Alert.alert(res.message);
        else
-          Alert.alert('Signup Succeeded');
+          mthis.props.navigation.navigate('verifyEmail',{userdata: signupData});
     })
   }
   showActionSheetMenu() {
@@ -115,6 +125,8 @@ class Register extends Component {
           this.setState({
             avatarUri: resizedImageUri,
           });
+          Alert.alert(uploadAvatar(resizedImageUri));
+ 
         }).catch((err) => {
           console.log(err);
         });
@@ -128,9 +140,7 @@ class Register extends Component {
         automaticallyAdjustContentInsets={false}>
         <View style={Styles.fullScreen}>
           {CommonWidgets.renderStatusBar('transparent')}
-          <Image
-            resizeMode={'stretch'}
-            style={Styles.fixedFullScreen} />
+           
           {/* -----Avatar---- */}
           <View style={[Styles.center, { flex: 5 }]}>
             <View>
@@ -158,6 +168,7 @@ class Register extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.usernameFocus) }]}>
               <TextInput
+              autoCapitalize = 'none'
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
                 placeholder={I18n.t('USERNAME')}
@@ -173,6 +184,7 @@ class Register extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.emailFocus) }]}>
               <TextInput
+              autoCapitalize = 'none'
                 ref={(c) => { this.emailInput = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
@@ -190,6 +202,7 @@ class Register extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.password1Focus) }]}>
               <TextInput
+              autoCapitalize = 'none'
                 ref={(c) => { this.pwd1Input = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
@@ -207,6 +220,7 @@ class Register extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.password2Focus) }]}>
               <TextInput
+              autoCapitalize = 'none'
                 ref={(c) => { this.pwd2Input = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}

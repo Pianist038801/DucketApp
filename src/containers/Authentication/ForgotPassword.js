@@ -5,6 +5,7 @@ import {
   View,
   TouchableOpacity,
   Image,
+  Alert,
  } from 'react-native';
 import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
@@ -16,7 +17,7 @@ import CommonWidgets from '@components/CommonWidgets';
 import { Styles, Images, Colors, Fonts } from '@theme/';
 import Utils from '@src/utils';
 import styles from './styles';
-
+import api from '@api';
 class ForgotPassword extends Component {
   constructor(props) {
     super(props);
@@ -29,8 +30,22 @@ class ForgotPassword extends Component {
     this.setState({ [`${value}Focus`]: true });
   }
 
-  doResetPassword() {
-    this.props.navigation.goBack();
+  doResetPassword() { 
+    api('/user/forgotpassword',{email: this.state.email}).then((res) => {
+      console.log(res);
+      if(res.success == false)
+        { 
+        alert(res.message);
+        return;
+        }
+      else
+        { 
+        
+         alert('Password sent to your email');
+         console.log('success');
+        return;
+        }
+    });
   }
 /*source={Images.bkgLogin}*/
   render() {
@@ -58,6 +73,7 @@ class ForgotPassword extends Component {
               </Text>
               {CommonWidgets.renderSpacer(0.5)}
               <TextInput
+                autoCapitalize = 'none'
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
                 placeholder={CT.string.EMAIL}

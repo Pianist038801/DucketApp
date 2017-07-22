@@ -20,7 +20,7 @@ import Utils from '@src/utils';
 import styles from './styles';
 import api from '@api';
 import { setSpinnerVisible } from '@actions/globals';
-
+import uploadAvatar from '@api/uploadAvatar';
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +29,10 @@ class Login extends Component {
       password: '',
     };
   }
-
+  componentDidMount()
+  {
+   
+  }
   onTextInputFocus(value) {
     this.setState({ emailFocus: false, passwordFocus: false });
     this.setState({ [`${value}Focus`]: true });
@@ -46,10 +49,11 @@ class Login extends Component {
       if(res.success == true){
           mthis.props.setSpinnerVisible(false);
           mthis.props.navigation.dispatch(Utils.getResetAction('main'));
+          console.log(res.data);
         }
         else{
           mthis.props.setSpinnerVisible(false);
-          Alert.alert('Login Failed');
+          setTimeout(()=> {Alert.alert('Login Failed');}, 100);
         }
     }); 
   }
@@ -90,6 +94,7 @@ class Login extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.emailFocus) }]}>
               <TextInput
+                autoCapitalize = 'none'
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}
                 placeholder={'USERNAME'}
@@ -106,6 +111,7 @@ class Login extends Component {
               style={[Styles.textInputContainerStyle,
               { borderColor: Utils.getTextInputBorderColor(this.state.passwordFocus) }]}>
               <TextInput
+              autoCapitalize = 'none'
                 ref={(c) => { this.loginpwd = c; }}
                 style={Styles.textInputStyle}
                 underlineColorAndroid={'transparent'}

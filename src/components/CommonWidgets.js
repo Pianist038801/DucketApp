@@ -47,8 +47,22 @@ const CommonWidgets = {
   },
 
 
+renderMaterialButton(text, color, onPress, loading = false) {
+    return (
+      <TouchableOpacity
+        style={[Styles.button, { backgroundColor: color }]}
+        onPress={!loading ? onPress : null}>
+        {!loading ?
+          <Text style={Fonts.style.buttonText}>
+            {text}
+          </Text> :
+          <ActivityIndicator
+            color={Colors.textPrimary} />}
+      </TouchableOpacity>
+    );
+  },
 
-  renderMaterialButton(text, color, onPress) {
+  renderMaterialButton1(text, color, onPress) {
     return (
       <MKButton
         style={Styles.button}

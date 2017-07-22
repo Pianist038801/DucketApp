@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_4e9a23b440e051dafb5abf997cd59cd36f88b64f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9de5b87104e5cdc864b855bf46817ae6ddef80ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_97050262708926ccebaa1300936a4b8806706ff1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_172a1b72ed80f00b54e3e2d6c3872ca95d168e86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9217752d5c5ff36d873280da6bdd72a64af9e995.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e5edad98e4113971e515a8d9fe89d6f95235fa9">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-11.0.1_8155b3d62028e987f8f729da55a6c1b063e60299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-onesignal/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e575f56c393a566397af4ec93e1d6f6201a2456a">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-onesignal-unspecified_370899c459fef36702a4a650f93fc867eec9bede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_b8d2259bbc67272e73348666dec1ecf33f9e3fdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0403a6c955272a546a25ae4c085f5fb728de3a42">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-11.0.1_427c4177c51073587517d3cf68825374a38dc5e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_834f03af940eabfefeec973c55d9071395f47810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_b18619be2766cc29073ad0fe1e262831b9901b63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-image-resizer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3689da4786d5e3cb4170f06613c39335c59a9e74">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-image-resizer-unspecified_0faff483845480f4b238bdeb9bbb177270569484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-material-kit/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="882aef412fe4f41b8427871e318712dc59c2a553">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-material-kit-unspecified_97555015c75b64e52d2ddd4546433bce9af450fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.1_baf772e65ca44e6cc6e35be13ba594630902f269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-i18n/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="89075ff9a907af843ffb29e0c882230eb331739d">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-i18n-unspecified_bdfbdcc2c39588b734bd8c1dd3965b28eac83eca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-spinkit/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2a86437588a831c33a46347cdfe7a514ca6a7d8c">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-spinkit-unspecified_8b71196153dff484a69a5a3664fd3977bc771b1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.1_cce45a43b48016c2b35a0acfbe302c18aed2c9ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_25616fac5ccd2c930504afd481acdcc4ed95f431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f70a8005cc2f6d37e4840f34901eeba3a41de5de">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-v4-impl-11.0.1_096f49ca2e615927c30d0a3b8b9fb6f63a4f9a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="185debb713f05e6ae262b4167d7645dce64ca4cb">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-image-picker-unspecified_758ca9ca41f07ecafc011de2c57094a670775e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_b15524fd9e93056989aedc0a764b0e2384451663.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_40017b675de18f0580301e5cbe93066477ed3c04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-vector-icons-unspecified_feb99d3387109b2ae60935ae7ce5405008c142ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="363fb5cab8e3b60b403373e02b505ee3e47d1c91">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-11.0.1_62132793c5d96a1992edbfd6e452873317f2c322.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_bf89408af106a29c84ec2153a1088e63ed9e6439.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_014775ef2ecb624ce89b49840b0180d3bed1a0a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_f5c66ae68df6a6bf99c3c82f08bb27adb563a93f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_c1ffac3611016df4d1a511c8aa91900fed3f3e5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_eb81bfe83293a894f6edccb5d780c56055166f0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.46.4_4e505b6964e33c62e2bbc37bd81325b4036fc904.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7738829867a4dd4c54cf2cb607a93ea793fe9a3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7057b89327260d70337f4913f933c78bb56ecd69">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-11.0.1_1e6d7131abf4e418a2d396f243651d1a191616a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-fetch-blob/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7dbf8d204fa8d4e7e3bc58ea51f3a9bdd95b9780">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-fetch-blob-unspecified_633e08765b1319a0b57c6866e23deea985ebba65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_5c123a5067c3ecaa7f4d0cd7b0a5e6ca2b4d3fe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.1_8c540bfacc0f02edc97271d03fdb811499a3f040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_616fa7840106aeff9559d7030449115e687d328b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_c451f22fcb929879460b3872fda3fde6520bb6a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_768b61abd22354156857df3d542c935e936c0708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_d1e3927ad78f6e5250feaa1549eb5ad42fb45bc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pianist/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2a5d5ea8b964062f20e5586df56b09c58069e812.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_b267379660c1aa9f2b618c7b3409ce72e12338aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.onesignal/OneSignal/3.5.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cfe119a4d5986e4a93f4d14909f55871a601271">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.onesignal-OneSignal-3.5.8_cfc3c81384084d589d0f2b095c799aca834c8dec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.github.ybq/Android-SpinKit/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="21c0f1b0de29bfe601028757c5cb125c343f5164">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.github.ybq-Android-SpinKit-1.1.0_c510dba22038596aa8d596e0ab59bbf0e444b4fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3e607ca6e04e85741fa979402b37eb552b811641">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.0.1_804ff0f166b23ae9ca688e6131e77c0a3b850bfb.jar" />
+    </item>
+
+</items>

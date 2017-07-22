@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
+    }
+]

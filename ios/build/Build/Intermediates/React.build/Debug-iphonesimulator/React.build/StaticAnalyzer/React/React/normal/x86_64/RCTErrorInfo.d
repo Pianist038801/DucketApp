@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTErrorInfo.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTErrorInfo.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTErrorInfo.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTJSStackFrame.h

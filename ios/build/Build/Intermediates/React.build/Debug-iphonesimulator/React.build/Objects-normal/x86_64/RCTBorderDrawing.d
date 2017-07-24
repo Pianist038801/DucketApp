@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTBorderDrawing.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTBorderDrawing.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTUtils.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTBorderDrawing.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTLog.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTUtils.h

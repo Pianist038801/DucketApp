@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/cxxreact/JSCLegacyProfiler.cpp
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/cxxreact/JSCLegacyProfiler.cpp

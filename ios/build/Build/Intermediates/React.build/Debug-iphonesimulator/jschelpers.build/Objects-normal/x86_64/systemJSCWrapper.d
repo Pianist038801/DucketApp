@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h

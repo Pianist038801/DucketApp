@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-material-kit/iOS/RCTMaterialKit/TickView.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-material-kit/iOS/RCTMaterialKit/TickView.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-material-kit/iOS/RCTMaterialKit/UIColor+MKColor.h
+  /Volumes/DATA/DucketApp/node_modules/react-native-material-kit/iOS/RCTMaterialKit/TickView.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native-material-kit/iOS/RCTMaterialKit/TickView.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native-material-kit/iOS/RCTMaterialKit/UIColor+MKColor.h

@@ -114,6 +114,7 @@ class Register extends Component {
     } else if (response.customButton) {
       console.log('User tapped custom button: ', response.customButton);
     } else if (response.uri !== undefined) {
+      console.log('AAA');
       let source = '';
       if (Platform.OS === 'android') {
         source = { uri: response.uri };
@@ -125,8 +126,9 @@ class Register extends Component {
           this.setState({
             avatarUri: resizedImageUri,
           });
-          Alert.alert(uploadAvatar(resizedImageUri));
- 
+          console.log('uploadAvatar');
+          //Alert.alert(uploadAvatar(resizedImageUri));
+
         }).catch((err) => {
           console.log(err);
         });

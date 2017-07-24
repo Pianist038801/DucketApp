@@ -1,5 +1,4 @@
-dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/DucketTests/DucketTests.m \
+dependencies: /Volumes/DATA/DucketApp/ios/DucketTests/DucketTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \
@@ -35,14 +34,14 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

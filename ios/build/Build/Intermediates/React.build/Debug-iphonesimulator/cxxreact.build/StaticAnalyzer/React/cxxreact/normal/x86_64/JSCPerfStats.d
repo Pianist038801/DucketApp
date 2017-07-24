@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.cpp \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.cpp \
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h

@@ -1,12 +1,11 @@
-dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/Ducket/AppDelegate.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/Ducket/AppDelegate.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+dependencies: /Volumes/DATA/DucketApp/ios/Ducket/AppDelegate.m \
+  /Volumes/DATA/DucketApp/ios/Ducket/AppDelegate.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

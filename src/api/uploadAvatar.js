@@ -1,5 +1,5 @@
 import firebase from 'firebase'
-import RNFetchBlob from 'react-native-fetch-blob'
+//import RNFetchBlob from 'react-native-fetch-blob'
 
 export default  uploadAvatar = function uploadAvatar(imgUri) {
     const Blob = RNFetchBlob.polyfill.Blob
@@ -19,6 +19,7 @@ export default  uploadAvatar = function uploadAvatar(imgUri) {
     let mime = 'image/jpg'
     return fs.readFile(imgUri, 'base64')
       .then((data) => {
+        console.log(data);
         return data;
         //return Blob.build(data, { type: `${mime};BASE64` })
     })

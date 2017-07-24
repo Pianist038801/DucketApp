@@ -56,12 +56,12 @@
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",

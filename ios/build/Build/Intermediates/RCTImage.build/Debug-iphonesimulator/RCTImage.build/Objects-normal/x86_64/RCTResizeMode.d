@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/Libraries/Image/RCTResizeMode.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/Libraries/Image/RCTResizeMode.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h

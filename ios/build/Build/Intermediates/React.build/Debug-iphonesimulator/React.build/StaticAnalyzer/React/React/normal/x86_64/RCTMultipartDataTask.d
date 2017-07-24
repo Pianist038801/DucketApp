@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

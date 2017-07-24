@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-image-resizer/ios/RCTImageResizer/ImageHelpers.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-image-resizer/ios/RCTImageResizer/ImageHelpers.h
+  /Volumes/DATA/DucketApp/node_modules/react-native-image-resizer/ios/RCTImageResizer/ImageHelpers.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native-image-resizer/ios/RCTImageResizer/ImageHelpers.h

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-spinkit/ios/Libraries/SpinKit/Animations/RTSpinKitCircleAnimation.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native-spinkit/ios/Libraries/SpinKit/Animations/RTSpinKitCircleAnimation.m \
   Libraries/SpinKit/Animations/RTSpinKitCircleAnimation.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native-spinkit/ios/Libraries/SpinKit/RTSpinKitAnimating.h
+  /Volumes/DATA/DucketApp/node_modules/react-native-spinkit/ios/Libraries/SpinKit/RTSpinKitAnimating.h

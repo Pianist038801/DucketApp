@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Modules/RCTI18nUtil.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Modules/RCTI18nUtil.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Modules/RCTI18nUtil.h

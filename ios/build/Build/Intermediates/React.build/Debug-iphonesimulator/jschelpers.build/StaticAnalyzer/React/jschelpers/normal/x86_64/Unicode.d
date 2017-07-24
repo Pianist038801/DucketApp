@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
+  /Volumes/DATA/DucketApp/node_modules/react-native/ReactCommon/jschelpers/Unicode.h

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTNavItem.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTNavItem.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTComponent.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTNavItem.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTComponent.h

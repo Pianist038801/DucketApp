@@ -1,19 +1,19 @@
 dependencies: \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTView.m \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTView.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTBorderDrawing.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTAnimationType.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/pianist/Downloads/DucketApp/Ducket/node_modules/react-native/React/Views/UIView+React.h
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTView.m \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTView.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTComponent.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTConvert.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTLog.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Base/RCTUtils.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Volumes/DATA/DucketApp/node_modules/react-native/React/Views/UIView+React.h

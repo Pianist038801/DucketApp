@@ -34,8 +34,10 @@ class Register extends Component {
       email: '',
       password1: '',
       password2: '',
+      avatarData: '', 
     };
   }
+
   onTextInputFocus(value) {
     this.setState({ usernameFocus: false, emailFocus: false, password1Focus: false, password2Focus: false });
     this.setState({ [`${value}Focus`]: true });
@@ -67,6 +69,7 @@ class Register extends Component {
         username: this.state.username,
         password: this.state.password1,
         email: this.state.email,
+        avatarData: this.state.avatarData,
         avatarUri: this.state.avatarUri,
         isLoggedIn : false,
         deviceToken : '',
@@ -85,6 +88,7 @@ class Register extends Component {
     this.ActionSheet.show();
   }
   onActionSheetMenu(index) {
+     
     const options = {
       quality: 1.0,
       storageOptions: {
@@ -113,29 +117,37 @@ class Register extends Component {
       console.log('ImagePicker Error: ', response.error);
     } else if (response.customButton) {
       console.log('User tapped custom button: ', response.customButton);
-    } else if (response.uri !== undefined) {
-      console.log('AAA');
+    } else if (response.uri !== undefined) { 
       let source = '';
       if (Platform.OS === 'android') {
         source = { uri: response.uri };
       } else {
         source = { uri: response.uri.replace('file://', ''), isStatic: true };
       }
+      this.setState({avatarData: response.data}); 
+      console.log(response.data);
+      var signupData = {
+        username: '1',
+        password: '1',
+        email: '1',
+        avatarData: response.data,
+        avatarUri: '1',
+        isLoggedIn : false,
+        deviceToken : '',
+        osType : '',
+      }
+      api('/user/signup', signupData).then(res=>{}).catch(err=> {console.log('Error'); console.log(err)});
       ImageResizer.createResizedImage(source.uri, 400, 300, 'JPEG', 80)
         .then((resizedImageUri) => {
           this.setState({
-            avatarUri: resizedImageUri,
-          });
-          console.log('uploadAvatar');
-          //Alert.alert(uploadAvatar(resizedImageUri));
-
+            avatarUri: resizedImageUri,              
+          }); 
         }).catch((err) => {
           console.log(err);
         });
     }
-  }
-  /*source={Images.bkgLogin}*/
-  render() {
+  } 
+  render() {                     
     return (
       <KeyboardAwareScrollView
         style={{ flex: 1, backgroundColor: Colors.brandPrimary }}
@@ -163,7 +175,6 @@ class Register extends Component {
               {I18n.t('UPLOAD_PHOTO')}
             </Text>
           </View>
-
           {/* -----Body---- */}
           <View style={styles.bodyContainer}>
             <View

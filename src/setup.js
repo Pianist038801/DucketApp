@@ -7,7 +7,6 @@ import configureStore from './configureStore';
 
 const store = configureStore();
  
- 
   class Root extends Component {
 
     render() {
@@ -18,7 +17,5 @@ const store = configureStore();
       );
     }
   }
-
- 
 
 export default Root;

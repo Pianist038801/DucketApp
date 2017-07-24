@@ -57,7 +57,7 @@ class Register extends Component {
 
   doSignUp() {
     var signupData = this.props.navigation.state.params.userdata;
-    uploadAvatar(signupData.avatarUri)
+    /*uploadAvatar(signupData.avatarUri)
     .then((url) => {
         // URL of the image uploaded on Firebase storage
         Alert.alert(url);
@@ -68,7 +68,7 @@ class Register extends Component {
         Alert.alert(error);
         console.log(error);
  
-      });/*
+      });* */                                 
      if(this.state.code == this.state.verifyCode){
         this.props.dispatch(setSpinnerVisible(true))
         api('/user/signup', signupData).then(res=>{     
@@ -78,7 +78,7 @@ class Register extends Component {
      }
     else{
       Alert.alert('Wrong Code');
-    }*/
+    }
   }
    
   render() {

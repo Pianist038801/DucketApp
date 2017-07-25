@@ -1,4 +1,43 @@
 dependencies: /Volumes/DATA/DucketApp/ios/Ducket/AppDelegate.m \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Modules/module.modulemap \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Modules/module.modulemap \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFWebViewAppLinkResolver.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFURL.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFMeasurementEvent.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLinkTarget.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLinkResolving.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLinkNavigation.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFAppLink.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFTaskCompletionSource.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFTask+Exceptions.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFTask.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFExecutor.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenSource.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenRegistration.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/BFCancellationToken.h \
+  /Users/pianist/Documents/FacebookSDK/Bolts.framework/Headers/Bolts.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfile.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKUtility.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKSettings.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKConstants.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKButton.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMacros.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h \
+  /Users/pianist/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h \
   /Volumes/DATA/DucketApp/ios/Ducket/AppDelegate.h \
   /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
   /Volumes/DATA/DucketApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \

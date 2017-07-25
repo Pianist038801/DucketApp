@@ -512,7 +512,11 @@ int drawable common_google_signin_btn_text_light_normal_background 0x7f020050
 int drawable googleg_disabled_color_18 0x7f020051
 int drawable googleg_standard_color_18 0x7f020052
 int drawable ic_os_notification_fallback_white_24dp 0x7f020053
-int drawable notification_template_icon_bg 0x7f020054
+int drawable node_modules_reactnavigation_src_views_assets_backicon 0x7f020054
+int drawable notification_template_icon_bg 0x7f020058
+int drawable src_assets_images_bkgsplash 0x7f020055
+int drawable src_assets_images_imgavatar 0x7f020056
+int drawable src_assets_images_imglogo 0x7f020057
 int id ChasingDots 0x7f0f0032
 int id Circle 0x7f0f0033
 int id CubeGrid 0x7f0f0034

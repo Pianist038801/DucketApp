@@ -1,4 +1,4 @@
-#Mon Jul 24 05:31:27 PDT 2017
+#Tue Jul 25 06:08:34 PDT 2017
 base.0=/Volumes/DATA/DucketApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Volumes/DATA/DucketApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

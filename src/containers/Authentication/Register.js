@@ -34,7 +34,6 @@ class Register extends Component {
       email: '',
       password1: '',
       password2: '',
-      avatarData: '', 
     };
   }
 
@@ -68,8 +67,7 @@ class Register extends Component {
     signupData = {
         username: this.state.username,
         password: this.state.password1,
-        email: this.state.email,
-        avatarData: this.state.avatarData,
+        email: this.state.email, 
         avatarUri: this.state.avatarUri,
         isLoggedIn : false,
         deviceToken : '',
@@ -123,20 +121,8 @@ class Register extends Component {
         source = { uri: response.uri };
       } else {
         source = { uri: response.uri.replace('file://', ''), isStatic: true };
-      }
-      this.setState({avatarData: response.data}); 
+      } 
       console.log(response.data);
-      var signupData = {
-        username: '1',
-        password: '1',
-        email: '1',
-        avatarData: response.data,
-        avatarUri: '1',
-        isLoggedIn : false,
-        deviceToken : '',
-        osType : '',
-      }
-      api('/user/signup', signupData).then(res=>{}).catch(err=> {console.log('Error'); console.log(err)});
       ImageResizer.createResizedImage(source.uri, 400, 300, 'JPEG', 80)
         .then((resizedImageUri) => {
           this.setState({

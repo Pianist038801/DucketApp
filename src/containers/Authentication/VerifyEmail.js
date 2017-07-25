@@ -71,10 +71,14 @@ class Register extends Component {
       });* */                                 
      if(this.state.code == this.state.verifyCode){
         this.props.dispatch(setSpinnerVisible(true))
-        api('/user/signup', signupData).then(res=>{     
+        uploadAvatar(signupData.username, signupData.avatarUri).then(url => {
+          signupData.avatarUri = url;  
+          api('/user/signup', signupData).then(res=>{     
            this.props.dispatch(setSpinnerVisible(false));
            this.props.navigation.dispatch(Utils.getResetAction('main'));
+          })
         })
+       
      }
     else{
       Alert.alert('Wrong Code');

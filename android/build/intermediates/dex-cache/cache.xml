@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/Ducket/react-native-fetch-blob/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7dbf8d204fa8d4e7e3bc58ea51f3a9bdd95b9780">
+        <dex dex="/Volumes/DATA/DucketApp/android/app/build/intermediates/pre-dexed/debug/Ducket-react-native-fetch-blob-unspecified_633e08765b1319a0b57c6866e23deea985ebba65.jar" />
+    </item>
+
+</items>

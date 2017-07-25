@@ -10,8 +10,7 @@ export default StyleSheet.create({
   imgAvatar: {
     width: Metrics.logoSize,
     height: Metrics.logoSize,
-    borderRadius: Metrics.logoSize / 2, 
-    backgroundColor: 'transparent'
+    borderRadius: Metrics.logoSize / 2,
   },
   forgotTextStyle: {
     width: Metrics.buttonWidth,

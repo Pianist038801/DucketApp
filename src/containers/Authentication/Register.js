@@ -62,7 +62,7 @@ class Register extends Component {
       Alert.alert('Confirm your password Correctly');
       return;
     }
-    var avatarUri = this.state.avataruri;
+   var avatarUri = this.state.avataruri;
     if ( avatarUri == '' ) avatarUri = 'https://firebasestorage.googleapis.com/v0/b/ducketapp.appspot.com/o/avatar%2FimgAvatar.png?alt=media&token=03d16d09-ade5-4176-a994-46cfee6b5727';
     signupData = {
         username: this.state.username,
@@ -73,6 +73,7 @@ class Register extends Component {
         deviceToken : '',
         osType : '',
     }
+
     let mthis = this;
     //mthis.props.navigation.navigate('verifyEmail',{userdata: signupData});
     api('/user/signup/check', signupData).then(res=>{
@@ -121,7 +122,8 @@ class Register extends Component {
         source = { uri: response.uri };
       } else {
         source = { uri: response.uri.replace('file://', ''), isStatic: true };
-      }  
+      } 
+      console.log(response.data);
       ImageResizer.createResizedImage(source.uri, 400, 300, 'JPEG', 80)
         .then((resizedImageUri) => {
           this.setState({
@@ -132,7 +134,7 @@ class Register extends Component {
         });
     }
   } 
-  render() {         
+  render() {                     
     return (
       <KeyboardAwareScrollView
         style={{ flex: 1, backgroundColor: Colors.brandPrimary }}
@@ -144,7 +146,7 @@ class Register extends Component {
           <View style={[Styles.center, { flex: 5 }]}>
             <View>
               <Image
-                resizeMode={'contain'}
+                resizeMode={'stretch'}
                 style={styles.imgAvatar}
                 source={this.state.avatarUri === '' ? Images.imgAvatar : { uri: this.state.avatarUri }} />
               <TouchableOpacity

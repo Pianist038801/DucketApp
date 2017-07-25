@@ -64,10 +64,6 @@
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
-        "source": "/Volumes/DATA/DucketApp/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
-    },
-    {
         "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
     },

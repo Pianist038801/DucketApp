@@ -68,10 +68,6 @@
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
-        "source": "/Volumes/DATA/DucketApp/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
-    },
-    {
         "merged": "/Volumes/DATA/DucketApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "/Volumes/DATA/DucketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },

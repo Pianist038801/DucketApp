@@ -19,7 +19,7 @@ let mime = 'image/jpg'
 window.XMLHttpRequest = RNFetchBlob.polyfill.XMLHttpRequest
 window.Blob = Blob
 
-export default uploadImage = (imgname, uri, mime = 'image/jpg') => {
+export default uploadImage = (imgname, uri, mime = 'application/octet-stream') => {
   return new Promise((resolve, reject) => {
      
     const sessionId = new Date().getTime()
